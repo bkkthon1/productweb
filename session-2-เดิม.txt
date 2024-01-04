@@ -1,0 +1,8 @@
+<?php
+session_start();
+?>
+<meta charset="utf-8">
+<?php
+echo "สวัสดีคุณ :";
+echo $u_username."<br>คุณยังอยู่ใน session น้ะครับ";
+?>
